@@ -1,0 +1,8 @@
+node_modules/
+package.json
+package-lock.json
+scrape_instagram.js
+instagram_data.json
+CLAUDE.md
+INSTRUCCIONES.md
+.claude/
