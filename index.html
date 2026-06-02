@@ -281,19 +281,9 @@
 
     .sobre-right { display: flex; flex-direction: column; gap: 1.5rem; }
 
-    .sobre-foto-placeholder {
-      aspect-ratio: 3/4; max-height: 420px;
-      background: var(--bg3);
-      border: 1px dashed rgba(201,169,110,.25);
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      gap: .9rem; color: var(--muted);
-      text-align: center; padding: 2rem;
-    }
-    .sfp-icon { font-size: 2.5rem; opacity: .35; }
-    .sfp-label {
-      font-size: .75rem; letter-spacing: .14em;
-      text-transform: uppercase; opacity: .5; line-height: 1.7;
+    .sobre-foto-img {
+      width: 100%; height: auto; display: block;
+      border: 1px solid var(--border);
     }
 
     .sobre-badges { display: flex; flex-direction: column; gap: .75rem; }
@@ -699,10 +689,11 @@
         </div>
 
         <div class="sobre-right reveal reveal-delay-2">
-          <div class="sobre-foto-placeholder">
-            <div class="sfp-icon">📷</div>
-            <div class="sfp-label">Foto de Silvia<br>— se agrega después —</div>
-          </div>
+          <img
+            src="assets/WhatsApp%20Image%202026-06-02%20at%2020.17.50.jpeg"
+            alt="Silvia Gómez — Photo Art Fotografía"
+            class="sobre-foto-img"
+          />
           <div class="sobre-badges">
             <div class="sobre-badge">
               <div class="sb-title">8 años de experiencia</div>
